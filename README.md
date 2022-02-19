@@ -1,2 +1,3 @@
-# otto-test
-Framework / Runner for handing DFU devices as test runners
+# Otto Test
+
+Inspired by Doc Ock, this runner is designed to be attached to numerious DFU vulnerable devices for testing.
