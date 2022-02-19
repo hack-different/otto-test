@@ -13,9 +13,10 @@
       {
         "groups": [
           "wheel",
-          "docker"
+          "sudo"
         ],
         "name": "rickmark",
+        "passwordHash": "$2y$12$zPYAH.AdF/RfvduAk/iS3ekdsgT64VVIjxcswopwshtb4CTROXi9i",
         "sshAuthorizedKeys": [
           "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFBe6pWTE8sQscw1TTsPck6J1nrcZ6wC9gLype7VxCCB"
         ]

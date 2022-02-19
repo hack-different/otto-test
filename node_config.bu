@@ -6,8 +6,9 @@ passwd:
       ssh_authorized_keys:
         - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFBe6pWTE8sQscw1TTsPck6J1nrcZ6wC9gLype7VxCCB
     - name: rickmark
+      password_hash: $2y$12$zPYAH.AdF/RfvduAk/iS3ekdsgT64VVIjxcswopwshtb4CTROXi9i # Literally junk_password - can only be used locally - testing isseus with boot
       ssh_authorized_keys:
         - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFBe6pWTE8sQscw1TTsPck6J1nrcZ6wC9gLype7VxCCB
       groups:
         - wheel
-        - docker
+        - sudo
