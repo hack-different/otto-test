@@ -1,0 +1,25 @@
+{
+  "ignition": {
+    "version": "3.3.0"
+  },
+  "passwd": {
+    "users": [
+      {
+        "name": "core",
+        "sshAuthorizedKeys": [
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFBe6pWTE8sQscw1TTsPck6J1nrcZ6wC9gLype7VxCCB"
+        ]
+      },
+      {
+        "groups": [
+          "wheel",
+          "docker"
+        ],
+        "name": "rickmark",
+        "sshAuthorizedKeys": [
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFBe6pWTE8sQscw1TTsPck6J1nrcZ6wC9gLype7VxCCB"
+        ]
+      }
+    ]
+  }
+}
